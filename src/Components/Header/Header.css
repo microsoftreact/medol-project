@@ -1,0 +1,156 @@
+.header {
+    height: 1280px;
+    background-image: url("../../../public/Images/blur-hospital\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 57px 40px;
+    background-color: #eee;
+}
+
+.header-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-navbar-contact {
+    display: flex;
+    align-items: center;
+}
+
+.header-navbar-contact-location {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-right: 41px;
+}
+
+.header-navbar-contact-location i {
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0D4C93;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-navbar-contact-location a {
+    font-family: 'Roboto', sans-serif;
+    color: #5A5A5A;
+}
+
+.header-navbar-contact-phone {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-navbar-contact-phone-icon i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #ffffff;
+    color: #0D4C93;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.header-navbar-contact-phone-numbers a {
+    color: #5A5A5A;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header-navbar-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 300px; */
+    margin-left: 30px;
+    gap: 51px;
+}
+
+.header-navbar-media .header-navbar-media-search {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    color: #0D4C93;
+    cursor: pointer;
+}
+
+.header-navbar-media-facebook {
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 180px;
+    height: 50px;
+    background: #ffff;
+}
+
+.header-navbar-media-facebook a {
+    font-family: 'Roboto', sans-serif;
+    color: #0D4C93;
+}
+
+.header-navbar-media-facebook i {
+    font-size: 20px;
+    color: #0D4C93;
+    cursor: pointer;
+}
+
+.header-navbar-media-language select {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #ffffff;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    color: #0D4C93;
+    font-size: 16px;
+}
+
+.header-navbar-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    padding-left: 34px;
+    padding-right: 34px;
+    margin-top: 50px;
+    background: #ffffff;
+}
+
+.header-navbar-links a {
+    color: #0D4C93;
+    transition: .5s;
+}
+
+.header-navbar-links a:active {
+    color: #00C9C9;
+}
+
+
+.header-navbar-links a:not(:last-child) {
+    border-right: 1px solid #eee;
+    padding-right: 50px;
+}

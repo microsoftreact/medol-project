@@ -1,5 +1,6 @@
 import "./App.css";
-import Header from "./Components/Header/Header";
+import {Header} from "./Components/Header/Header";
+import "./Normalize/Normalize.css";
 
 function App() {
   return (
