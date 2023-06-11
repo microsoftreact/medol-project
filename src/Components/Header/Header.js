@@ -45,12 +45,45 @@ function Header() {
       </div>
       <div className="header-navbar-slider">
         <div className="header-navbar-links">
-          <a href="#">МАГАЗИН</a>
-          <a href="#">О КОМПАНИИ</a>
-          <a href="#">ПРОДУКЦИЯ</a>
-          <a href="#">УСЛУГИ</a>
-          <a href="#">АКЦИИ И НОВОСТИ</a>
-          <a href="#">ОБРАТНАЯ СВЯЗЬ</a>
+          <div class="links-one">
+            <a href="#">МАГАЗИН</a>
+          </div>
+          <div className="links-two">
+            <a href="#">О КОМПАНИИ</a>
+          </div>
+          <div className="links-three">
+            <a href="#">ПРОДУКЦИЯ</a>
+          </div>
+          <div className="links-four">
+            <a href="#">УСЛУГИ</a>
+          </div>
+          <div className="links-five">
+            <a href="#">АКЦИИ И НОВОСТИ</a>
+          </div>
+          <div className="links-six">
+            <a href="#">ОБРАТНАЯ СВЯЗЬ</a>
+          </div>
+        </div>
+        <div className="header-navbar-slider-content">
+          <div className="header-navbar-slider-content-left">
+            <h1>Анализатор ABL800 FLEX</h1>
+            <p>
+              Ориентированный на среднюю или высокую производительность тестов,
+              анализатор ABL800 FLEX измеряет полный набор параметров, включая
+              pH, газы крови, электролиты, метаболиты и показатели оксиметрии
+            </p>
+            <button>
+              <a href="#">Подробнее</a>
+            </button>
+          </div>
+          <div className="header-navbar-slider-content-right">
+            <img src="./Images/slide.png" alt="Bu yerda texnika rasmi bor" />
+          </div>
+        </div>
+        <div className="header-navbar-slider-btn">
+          <button></button>
+          <button></button>
+          <button></button>
         </div>
       </div>
     </div>
