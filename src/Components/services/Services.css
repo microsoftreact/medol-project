@@ -1,0 +1,106 @@
+.services {
+    margin-top: 123px;
+}
+
+.services-navbar {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-navbar a {
+    color: #0D4C93;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+.services-navbar i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0D4C93;
+    border: 1px solid #0D4C93;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.services-navbar i:active {
+    scale: 0.9;
+}
+
+.services-cards {
+    background-image: url("../../../public/Images/abstract-blur-hospital-clinic-interior\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    gap: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 62px;
+}
+
+.services-card-one,
+.services-card-two,
+.services-card-three {
+    width: 388px;
+    height: 491px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-card-one img,
+.services-card-two img,
+.services-card-three img {
+    border-radius: 35px 35px 0px 0px;
+    padding-bottom: 22px;
+}
+
+.services-card-one h2,
+.services-card-two h2,
+.services-card-three h2 {
+    color: #0D4C93;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.services-card-one p,
+.services-card-two p,
+.services-card-three p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 24px;
+    font-weight: 300;
+    padding-bottom: 42px;
+}
+
+.services-card-one button,
+.services-card-two button,
+.services-card-three button {
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+    opacity: 0.9;
+    border-radius: 35px;
+    padding: 13px 71px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    transition: .5s;
+    color: #eee;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.services-card-one button:active,
+.services-card-two button:active,
+.services-card-three button:active {
+    scale: 0.9;
+}

@@ -1,6 +1,7 @@
 import "./App.css";
 import { Header } from "./Components/Header/Header";
 import Product from "./Components/Product/Product";
+import Services from "./Components/services/Services";
 import "./Normalize/Normalize.css";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div className="App">
       <Header />
       <Product />
+      <Services />
     </div>
   );
 }
