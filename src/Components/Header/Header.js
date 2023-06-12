@@ -36,6 +36,7 @@ function Header() {
             <a href="#">Мы на Facebook</a>
           </div>
           <div className="header-navbar-media-language">
+            <img src="./Images/russian.png" alt="" />
             <select>
               <option>Русский</option>
               <option>Узбек</option>

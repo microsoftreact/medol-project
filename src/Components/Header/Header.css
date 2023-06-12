@@ -1,5 +1,5 @@
 .header {
-    height: 1280px;
+    height: 1000px;
     background-image: url("../../../public/Images/blur-hospital\ 1.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -87,6 +87,7 @@
     font-size: 20px;
     color: #0D4C93;
     cursor: pointer;
+    background: #ffffff;
 }
 
 .header-navbar-media-facebook {
@@ -111,19 +112,26 @@
     cursor: pointer;
 }
 
+.header-navbar-media-language {
+    width: 180px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 15px;
+}
+
 .header-navbar-media-language select {
     outline: none;
     border: none;
     cursor: pointer;
-    width: 120px;
-    height: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    background: #ffffff;
-    border-radius: 25px;
     font-family: 'Roboto', sans-serif;
     color: #0D4C93;
     font-size: 16px;
+    padding-right: 15px;
+
 }
 
 .header-navbar-links {
@@ -215,6 +223,7 @@
     justify-content: space-between;
 }
 
+
 .header-navbar-slider-content-left h1 {
     color: #0D4C93;
     font-family: "Roboto", sans-serif;
@@ -237,6 +246,11 @@
     padding: 21px 71px;
     font-family: "Roboto", sans-serif;
     border: none;
+    transition: .5s;
+}
+
+.header-navbar-slider-content-left button:active {
+    scale: 0.9;
 }
 
 .header-navbar-slider-content-left button a {
@@ -258,6 +272,7 @@
 .header-navbar-slider-btn button {
     padding: 10px;
     transition: .3s;
+    background: #ffffff;
     border: 1px solid #00C9C9;
     border-radius: 50%;
     cursor: pointer;
@@ -265,4 +280,5 @@
 
 .header-navbar-slider-btn button:active {
     background: #00C9C9;
+    scale: 0.9;
 }
