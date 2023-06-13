@@ -1,0 +1,79 @@
+.company {
+    margin-top: 67px;
+}
+
+.company-title {
+    padding-bottom: 52px;
+}
+
+.company-section {
+    display: flex;
+    align-items: center;
+    gap: 44px;
+    background: linear-gradient(180deg, #F5F5F5 0%, rgba(245, 245, 245, 0) 100%);
+    border-radius: 0px 50px 50px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.company-section .company-logo {
+    position: relative;
+    top: -40px;
+}
+
+.company-section .company-logo .one {
+    width: 574px;
+    height: 574px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    border: 40px solid rgba(0, 201, 201, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-section .company-logo .two {
+    width: 458px;
+    height: 458px;
+    border-radius: 50%;
+    border: 40px solid rgba(13, 76, 147, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-section .company-logo .three {
+    width: 352px;
+    height: 352px;
+    border-radius: 50%;
+    border: 40px solid rgba(120, 223, 242, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company-content p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.06em;
+    padding-bottom: 35px;
+}
+
+.company-content button {
+    background: linear-gradient(90deg, #0D4C93 0%, #00C9C9 100%);
+    opacity: 0.9;
+    border-radius: 35px;
+    padding: 15px 61px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    transition: .5s;
+    color: #eee;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.company-content button:active {
+    scale: 0.9;
+}

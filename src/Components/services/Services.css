@@ -33,6 +33,7 @@
 }
 
 .services-cards {
+    height: 700px;
     background-image: url("../../../public/Images/abstract-blur-hospital-clinic-interior\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;

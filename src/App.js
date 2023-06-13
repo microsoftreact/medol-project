@@ -1,6 +1,8 @@
 import "./App.css";
 import { Header } from "./Components/Header/Header";
 import Product from "./Components/Product/Product";
+import Company from "./Components/company/Company";
+import News from "./Components/news/News";
 import Services from "./Components/services/Services";
 import "./Normalize/Normalize.css";
 
@@ -10,6 +12,8 @@ function App() {
       <Header />
       <Product />
       <Services />
+      <Company />
+      <News />
     </div>
   );
 }
