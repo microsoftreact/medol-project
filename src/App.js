@@ -10,14 +10,16 @@ import "./Normalize/Normalize.css";
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Product />
-      <Services />
-      <Company />
-      <News />
-      <Partners />
-      <Footer />
+    <div className="header-container">
+      <div className="App">
+        <Header />
+        <Product />
+        <Services />
+        <Company />
+        <News />
+        <Partners />
+        <Footer />
+      </div>
     </div>
   );
 }
