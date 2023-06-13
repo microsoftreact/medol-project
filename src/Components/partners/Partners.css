@@ -4,6 +4,7 @@
     align-items: center;
     gap: 38px;
     justify-content: center;
+    position: relative;
 }
 
 .partners-title {

@@ -2,6 +2,7 @@ import "./App.css";
 import { Header } from "./Components/Header/Header";
 import Product from "./Components/Product/Product";
 import Company from "./Components/company/Company";
+import Footer from "./Components/footer/Footer";
 import News from "./Components/news/News";
 import Partners from "./Components/partners/Partners";
 import Services from "./Components/services/Services";
@@ -16,6 +17,7 @@ function App() {
       <Company />
       <News />
       <Partners />
+      <Footer />
     </div>
   );
 }
